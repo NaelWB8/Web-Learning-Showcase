@@ -45,3 +45,13 @@ index.html → main landing page
 3. Click Go Live or run
     npx live-server
 4. Your default browser will open at http://127.0.0.1:5500 (or similar).
+
+📜 License
+
+This project is licensed under the MIT License.
+You’re free to reuse or modify it for learning or educational purposes.
+
+🧩 Acknowledgment
+
+Created by Nathanael Wilson Bong (Nael)
+Originally developed during my 11th-grade studies as part of a web programming class project.

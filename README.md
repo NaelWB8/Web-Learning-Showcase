@@ -1,26 +1,47 @@
-# Portfolio — Nathanael Wilson Bong
+# Web Learning Showcase
 
-This is an upgraded version of the IT2 assignments, reorganized as a small portfolio site for public viewing and GitHub Pages deployment.
+This project was built during my 11th grade year as part of an IT web development assignment.  
+What started as a simple collection of class materials evolved into an interactive website that organizes learning content through HTML, CSS, and JavaScript.  
+The site includes modules in economics and physics, along with example forms and basic scripting — showing how web technologies can make learning clearer and more engaging.
 
-## Run locally
-1. Open the project folder in VS Code.
-2. In terminal run:
-```
-npx live-server
-```
-3. Open http://127.0.0.1:8080 or the address shown by the server.
+---
 
-## Deploy to GitHub Pages
-1. Create a new repository on GitHub.
-2. Push the project files to the repository's main branch.
-3. On GitHub go to Settings → Pages and select Branch: main and Folder: root, then Save.
-4. The site will be published at https://yourusername.github.io/your-repo/
+## 🌐 Live Demo
+View the website online:  
+👉 [https://naelwb8.github.io/Web-Learning-Showcase/](https://naelwb8.github.io/Web-Learning-Showcase/)
 
-## Project structure
-- index.html : landing page
-- css/ : styles
-- html/ : original pages (economics, physics, form, etc)
-- image/ : images and screenshots
+---
 
-## License
-MIT
+## 📂 Project Structure
+html/ → subject pages (Economics, Physics, etc.)
+css/ → stylesheets
+JS/ → scripts for interactivity
+image/ → supporting graphics
+index.html → main landing page
+
+---
+
+## ✨ Features
+- Organized multi-subject layout  
+- Simple responsive design  
+- Lightweight and accessible HTML structure  
+- Educational approach with diagrams and notes  
+
+---
+
+## 🧠 Built With
+- **HTML5** — Structure and content  
+- **CSS3** — Visual design and layout  
+- **JavaScript** — Basic interactivity  
+
+---
+
+## 🚀 Run Locally
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/NaelWB8/Web-Learning-Showcase.git
+   Open the folder in Visual Studio Code.
+2. Install the Live Server extension if you haven’t yet.
+3. Click Go Live or run
+    npx live-server
+4. Your default browser will open at http://127.0.0.1:5500 (or similar).

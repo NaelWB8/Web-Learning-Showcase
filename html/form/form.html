@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistika</title>
+    <link rel="stylesheet" href="../../css/stylemenu_31nael.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="judul">IT2_31</h2>
+        <nav class="navigation">
+            <a href="../../html/indexmenuit2_31nael.html" class="active">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Matematika</button>
+                <div class="dropdown-content" style="width: 225px;">
+                    <a href="../mat/mat1.html">Statistika</a>
+                    <a href="../mat/mat2.html">Barisan dan Deret</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Sejarah</button>
+                <div class="dropdown-content" style="width: 300px;">
+                    <a href="../sej/sej1.html">Kolonialisme dan Imperialisme</a>
+                    <a href="../sej/sej2.html">Rumah ke-2 & Kebijakan Imperialisme</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Fisika</button>
+                <div class="dropdown-content" style="width: 265px;">
+                    <a href="../fis/fis1.html">Gravitasi</a>
+                    <a href="../fis/fis2.html">Usaha & Energi</a>
+                    <a href="../fis/fis3.html">Impuls & Momentum</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">B.Indo</button>
+                <div class="dropdown-content right" style="width: 235px;">
+                    <a href="../ind/ind1.html">Cerpen dan Novel</a>
+                    <a href="../ind/ind2.html">Paragraf</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Ekonomi</button>
+                <div class="dropdown-content right" style="width: 260px;">
+                    <a href="../eko/eko1.html">Inflasi</a>
+                    <a href="../eko/eko2.html">Pendapatan Nasional</a>
+                </div>
+            </div>
+            
+            <a href="form.html" class="form">Form</a>
+        </nav>
+    </header>
+
+    <section class="content materi">
+    <div class="box">
+    <h3>Form Pendaftaran KTP</h3>
+        <form class="kontenform">
+            <div class="form-group">
+                <label>Nomor Pendaftaran:</label>
+                <input type="text" name="nopendaf" placeholder="Nomor Pendaftaran." required>
+            </div>
+            <div class="form-group">
+                <label>Nama lengkap:</label>
+                <input type="text" name="namalengkap" placeholder="Nama Anda." required>
+            </div>
+            <div class="form-group jeniskelamin">
+                <label>Jenis Kelamin:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="jeniskelamin" value="pria" required> Pria</label>
+                    <label><input type="radio" name="jeniskelamin" value="wanita" required> Wanita</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Tempat, Tanggal Lahir:</label>
+                <input type="text" name="tempatlahir" placeholder="Kota, DD/MM/YYYY." required>
+            </div>
+            <div class="form-group">
+                <label>Pekerjaan:</label>
+                <input type="text" name="pekerjaan" placeholder="Pekerjaan Anda." required>
+            </div>
+            <div class="form-group">
+                <label>Status Pernikahan:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="statuspernikahan" value="sudahmenikah" required> Sudah Menikah</label>
+                    <label><input type="radio" name="statuspernikahan" value="belummenikah" required> Belum Menikah</label>
+                    <label><input type="radio" name="statuspernikahan" value="janda" required> Janda</label>
+                    <label><input type="radio" name="statuspernikahan" value="duda" required> Duda</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Alamat Rumah:</label>
+                <input type="text" name="alamat" placeholder="Alamat Anda." required>
+            </div>
+            <div class="form-group">
+                <label>Agama:</label>
+                <select name="agama" required>
+                    <option value="">-- Pilih Salah Satu Agama --</option>
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>RT/RW:</label>
+                <input type="text" name="rt" placeholder="RT." required style="width: 60px;">
+                <input type="text" name="rw" placeholder="RW." required style="width: 60px;">
+            </div>
+            <div class="form-group">
+                <label>Kelurahan:</label>
+                <input type="text" name="kelurahan" placeholder="Kelurahan.">
+            </div>
+            <div class="form-group">
+                <label>Kecamatan:</label>
+                <input type="text" name="kecamatan" placeholder="Kecamatan.">
+            </div>
+            <div class="form-group">
+                <label>Kabupaten/Kota:</label>
+                <input type="text" name="kabupaten" placeholder="Kabupaten/Kota." required>
+            </div>
+            <div class="form-group">
+                <label>Provinsi:</label>
+                <input type="text" name="provinsi" placeholder="Provinsi.">
+            </div>
+            <div class="form-group">
+                <label>Tanggal Pendaftaran:</label>
+                <input type="text" name="tanggal" placeholder="Tanggal" style="width: 70px;">
+                <input type="text" name="bulan" placeholder="Bulan" style="width: 70px;">
+                <input type="text" name="tahun" placeholder="Tahun" style="width: 85px;">
+            </div>
+            <div class="form-buttons">
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+    </section>
+
+    <hr class="pemisahfooter">
+    <footer>
+        <p>Dibuat oleh: IT-2/31/Nathanael Wilson Bong</p>
+    </footer>
+
+</body>
+</html>
